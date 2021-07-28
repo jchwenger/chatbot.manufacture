@@ -26,4 +26,31 @@ Lucas Savioz, actor (Manufacture graduate 2018)
 Batrek Sozanski, actor, assistant HES  
 Elsa Thébault, actress (Manufacture graduate 2019)  
 Lisa Veyrier, actress (Manufacture graduate 2016), HES assistant  
-Jérémie Wenger, computational writer and developer  
+Jérémie Wenger, writer and programmer  
+
+### Usage
+
+This repo has been created in order to federate the code base of this project and post it on Zenodo. It consists of three parts:
+- the interface (a chatroom powered by a nodeJS server);
+- the bot (a Python client harnessing the power of [OpenAI's GPT-2](https://github.com/openai/gpt-2));
+- additional archival code used for an intermediary stage of the development (legacy).
+
+In order to fetch the code, either use the following command:
+
+```bash
+git clone --recurse-submodules https://github.com/jchwenger/chatbot.manufacture
+```
+
+or, after cloning, run:
+
+```bash
+git submodule init
+git submodule update
+```
+
+Each of the repositories can be found individually here:
+- the [interface](https://github.com/jchwenger/chatbot.interface);
+- the [bot](https://github.com/jchwenger/chatbot.bot);
+- the [legacy software](https://github.com/jchwenger/chatbot.legacy).
+
+Instructions for use are to be found in the readme of each repo.
