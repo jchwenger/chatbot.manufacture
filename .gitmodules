@@ -1,3 +1,6 @@
 [submodule "chatbot.interface"]
 	path = chatbot.interface
 	url = https://github.com/jchwenger/chatbot.interface.git
+[submodule "chatbot.bot"]
+	path = chatbot.bot
+	url = https://github.com/jchwenger/chatbot.bot.git
